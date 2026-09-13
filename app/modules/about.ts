@@ -42,7 +42,7 @@ export const aboutModule = {
   socialLinks: [
     { label: "Email", url: "mailto:hl123@illinois.edu", iconSrc: "/social-icons/email.png" },
     { label: "Google Scholar", url: "https://scholar.google.com/citations?user=dgUE404AAAAJ&hl=en&oi=ao", iconSrc: "/social-icons/gs.png" },
-    { label: "GitHub", url: "https://github.com/Kayl2005", iconSrc: "/social-icons/gh.png" },
+    { label: "GitHub", url: "https://github.com/haozhongliu", iconSrc: "/social-icons/gh.png" },
     { label: "LinkedIn", url: "https://www.linkedin.com/in/haozhong-liu-991887435/", iconSrc: "/social-icons/li.png" },
     { label: "CV", url: "https://github.com/Kayl2005", iconSrc: "/social-icons/cv.png" },
   ] satisfies readonly SocialLink[],
