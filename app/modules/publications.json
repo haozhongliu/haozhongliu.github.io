@@ -1,0 +1,54 @@
+[
+  {
+    "title": "ArtAnno: Annotating Implicit Semantics in Artworks through LLM Agent-Driven Bidirectional Human-AI Augmentation",
+    "authors": ["X. Gu", "Y. Wang", "W. Zheng", "Haozhong Liu", "Y. Zheng", "W. Ning", "W. Zhang", "W. Chen"],
+    "venue": "UIST",
+    "venueUrl": "https://uist.acm.org/",
+    "year": 2026,
+    "keywords": ["Human-Agent Collaboration", "Digital Humanities", "Human-Centered Computing", "Multi-Agent System"],
+    "url": "https://arxiv.org/abs/2608.05026",
+    "doi": "",
+    "pdf": "https://arxiv.org/pdf/2608.05026",
+    "image": "/artanno.png",
+    "cofirst": ["X. Gu", "Y. Wang"],
+    "bold": ["Haozhong Liu"]
+  },
+  {
+    "title": "CHCVis: An Interactive Visual Analytics System for Multi-Source Cultural Heritage Cross-Validation",
+    "authors": ["Haozhong Liu", "A. Li", "T. Wang", "X. Gu", "Y. Zheng", "H. Chen", "H. Deng", "W. Zhang", "Y. Zhao"],
+    "venue": "ChinaVis",
+    "venueUrl": "https://chinavis.org/2026/en/",
+    "year": 2026,
+    "keywords": ["Visual Analytics", "Digital Humanities", "Human-Computer Interaction"],
+    "url": "",
+    "doi": "",
+    "image": "/chcvis.png",
+    "bold": ["Haozhong Liu"]
+  },
+  {
+    "title": "From Observing to Directing: Exploring Human Participation in Human-Agent Deliberation for Opinion Evolution",
+    "authors": ["Haozhong Liu", "X. Gu", "W. Zheng", "Y. Zheng", "W. Zhang", "W. Chen"],
+    "venue": "CHI",
+    "underReview": true,
+    "venueUrl": "https://chi2027.acm.org/",
+    "year": 2027,
+    "keywords": ["Human-Computer Interaction", "Human-Agent Collaboration", "HCI Theory"],
+    "url": "",
+    "doi": "",
+    "image": "/had.png",
+    "bold": ["Haozhong Liu"]
+  },
+  {
+    "title": "TCPsBench: A Benchmark for Evaluating Interpretation Ability in Traditional Chinese Painting",
+    "authors": ["X. Gu", "W. Zheng", "Y. Zheng", "Haozhong Liu", "K. Liu", "P. Jiang", "T. Wang", "J. Zhu", "L. Jiang", "W. Zhang", "W. Chen"],
+    "venue": "TMM",
+    "underReview": true,
+    "venueUrl": "https://signalprocessingsociety.org/publications-resources/ieee-transactions-multimedia",
+    "year": 2027,
+    "keywords": ["VLM Benchmarks", "Multimodal Model ", "Digital Humanities"],
+    "url": "",
+    "doi": "",
+    "image": "/tcpbench.png",
+    "bold": ["Haozhong Liu"]
+  }
+]

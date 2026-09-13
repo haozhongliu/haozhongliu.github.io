@@ -1,0 +1,20 @@
+[
+    {
+    "title": "Development of Human-Agent Deliberation System",
+    "description": "Developed a Human-Agent Deliberation system to explore human participation in cognitive human-agent exchange. This system supports different forms of human participation with timestamped logs for further analysis. It generalizes the recurring HCI system paradigm into a trackable research probe. ",
+    "image": "/hadsys.png",
+    "url": ""
+  }, 
+  {
+    "title": "Development of an Intelligent Film Scoring Tool with Cross-Modal Perception",
+    "description": "Developed an interactive AI system that maps multimodal video and music features to users’ subjective musical perceptions, enabling personalized and controllable film scoring. The system combines LLM-based semantic understanding, multimodal feature modeling, and interactive visualization to bridge objective media features with human creative preferences. ",
+    "image": "/shuyan.png",
+    "url": ""
+  },
+  {
+    "title": "BioElectro Glove: AI-Assisted Mental Health Screening via Connective-Tissue Bioelectrical Signals",
+    "description": "Participated in developing a non-invasive AI screening system for early depression risk assessment using bioelectrical signals collected from the fingers and palm. The system combines high-precision sensing with personalized decoding models to extract multidimensional physiological features and achieved an 83% identification accuracy in preliminary evaluation.",
+    "image": "/bioelectro.png",
+    "url": ""
+  }
+]
