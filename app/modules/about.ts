@@ -13,7 +13,6 @@ export const aboutHighlightTerms = [
   "Human-Agent Collaboration",
   "Multi-Agent Systems",
   "Visualization",
-  "Qingdao, China",
   "VAI Lab",
   "Prof. Wei Chen",
   "Fall 2028",

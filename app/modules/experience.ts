@@ -41,7 +41,7 @@ export const experienceModule = {
           description: "Awarded for outstanding academic performance and overall achievement.",
         },
         {
-          title: "National Gold Award, China International College Students’ Innovation Competition (2025)",
+          title: "Gold Award, China International College Students’ Innovation Competition (2025)",
           description: "Awarded for the BioElectro project, an AI-assisted mental health screening system based on connective-tissue bioelectrical signals.",
         },
         {
