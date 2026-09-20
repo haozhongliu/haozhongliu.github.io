@@ -1,4 +1,17 @@
 [
+    {
+    "title": "From Observing to Directing: Exploring Human Participation in Human-Agent Deliberation for Opinion Evolution",
+    "authors": ["Haozhong Liu", "X. Gu", "W. Zheng", "Y. Zheng", "W. Zhang", "W. Chen"],
+    "venue": "CHI",
+    "underReview": true,
+    "venueUrl": "https://chi2027.acm.org/",
+    "year": 2027,
+    "keywords": ["Human-Computer Interaction", "Human-Agent Collaboration", "HCI Theory"],
+    "url": "",
+    "doi": "",
+    "image": "/had.png",
+    "bold": ["Haozhong Liu"]
+  },
   {
     "title": "ArtAnno: Annotating Implicit Semantics in Artworks through LLM Agent-Driven Bidirectional Human-AI Augmentation",
     "authors": ["X. Gu", "Y. Wang", "W. Zheng", "Haozhong Liu", "Y. Zheng", "W. Ning", "W. Zhang", "W. Chen"],
@@ -23,19 +36,6 @@
     "url": "",
     "doi": "",
     "image": "/chcvis.png",
-    "bold": ["Haozhong Liu"]
-  },
-  {
-    "title": "From Observing to Directing: Exploring Human Participation in Human-Agent Deliberation for Opinion Evolution",
-    "authors": ["Haozhong Liu", "X. Gu", "W. Zheng", "Y. Zheng", "W. Zhang", "W. Chen"],
-    "venue": "CHI",
-    "underReview": true,
-    "venueUrl": "https://chi2027.acm.org/",
-    "year": 2027,
-    "keywords": ["Human-Computer Interaction", "Human-Agent Collaboration", "HCI Theory"],
-    "url": "",
-    "doi": "",
-    "image": "/had.png",
     "bold": ["Haozhong Liu"]
   },
   {
