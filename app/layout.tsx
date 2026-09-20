@@ -16,7 +16,7 @@ const sans = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-	title: "Haozhong Liu | CompE @ UIUC",
+	title: "Haozhong Liu Homepage | CompE @ UIUC",
 	icons: {
 		icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
 		shortcut: "/favicon.svg",
