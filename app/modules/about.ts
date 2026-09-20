@@ -15,6 +15,7 @@ export const aboutHighlightTerms = [
   "Visualization",
   "VAI Group",
   "Prof. Wei Chen",
+  "Prof. Wei Zhang",
   "Fall 2028",
   "continue my research in the United States",
   "traveling",

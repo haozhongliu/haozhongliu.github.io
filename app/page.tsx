@@ -7,6 +7,7 @@ import { WorldMapCanvas } from "./components/WorldMapCanvas";
 import { PublicationCard } from "./components/PublicationCard";
 import { ProjectCard } from "./components/ProjectCard";
 import { SocialIconLinks } from "./components/SocialIconLinks";
+import { ViewCounter } from "./components/ViewCounter";
 import { aboutModule, aboutHighlightTerms } from "./modules/about";
 import { experienceModule } from "./modules/experience";
 import { journeysModule, writingHighlightTerms } from "./modules/journeys";
@@ -400,6 +401,9 @@ export default function Home() {
 						</div>
 					</section>
 				</div>
+				<footer className="siteFootnote" aria-label="Site statistics">
+					<ViewCounter />
+				</footer>
 			</main>
 	);
 }
