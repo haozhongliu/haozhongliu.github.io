@@ -16,8 +16,7 @@ const sans = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-	title: "Personal Homepage Draft",
-	description: "A minimal Japanese-inspired personal homepage structure.",
+	title: "Haozhong Liu | CompE @ UIUC",
 	icons: {
 		icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
 		shortcut: "/favicon.svg",
