@@ -11,7 +11,7 @@ export const researchInterestCards = [
   "Human-Computer Interaction",
   "Human-Agent Collaboration",
   "Visualization",
-  "AI-Assisted Creativity",
+  "AI-mediated Decision-making",
 ] as const;
 
 export type Publication = {
@@ -20,6 +20,7 @@ export type Publication = {
   venue: string;
   venueUrl?: string;
   underReview?: boolean;
+  accept?: boolean;
   year?: number;
   keywords: string[];
   url?: string;
@@ -80,7 +81,7 @@ export const researchModule = {
       kicker: "Current Focus",
       title: "Interests",
       content:
-        "My research explores how AI systems can support human understanding, creativity, and sensemaking across diverse tasks. I am especially interested in interactive systems design that help people think, explore, and create more effectively. Currently, I am working on Human-Agent Deliberation. ",
+        "My research explores how AI systems can support human understanding, creativity, and sensemaking. I am especially interested in the interactive design that helps people think, explore, and create more effectively and smoothly. Currently, I am working on AI-mediated Decision-making. ",
     },
   ] satisfies readonly ResearchBlock[],
 } as const;

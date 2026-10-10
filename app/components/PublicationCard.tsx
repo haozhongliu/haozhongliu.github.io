@@ -38,6 +38,7 @@ export function PublicationCard({ pub }: { pub: Publication }) {
             <div className="pubVenue">{venueText}</div>
           )}
           {pub.underReview && <span className="pubStatusBadge">Under Review</span>}
+          {pub.accept && <span className="pubStatusBadge pubStatusBadgeAccept">Accepted</span>}
         </div>
         <div className="pubAuthors">
           {pub.authors.map((author, index) => {

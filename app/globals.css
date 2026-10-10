@@ -591,6 +591,11 @@ a {
 	pointer-events: none;
 }
 
+.pubStatusBadgeAccept {
+	background: #c9e6cd;
+	color: #316d3b;
+}
+
 .pubVenueLink {
 	text-decoration: underline;
 	text-underline-offset: 0.14em;
