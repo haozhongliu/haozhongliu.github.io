@@ -177,11 +177,78 @@ a {
 
 .aboutHighlight {
 	color: var(--ink);
-	font-weight: 500;
+	font-weight: 499;
 	padding: 0 0.02em;
 	background: linear-gradient(180deg, transparent 62%, rgba(122, 95, 80, 0.17) 62%);
 	box-decoration-break: clone;
 	-webkit-box-decoration-break: clone;
+}
+
+.aboutIdentityMeta {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.52em;
+	margin-inline-start: 1.4em;
+	vertical-align: baseline;
+}
+
+.aboutIdentityText {
+	font-size: 0.5em;
+	font-weight: 420;
+	color: #a8a8a8;
+	letter-spacing: 0.01em;
+}
+
+.aboutPronunciation {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+}
+
+.aboutPronunciationTrigger {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 1.9em;
+	height: 1.9em;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	color: var(--muted);
+	cursor: pointer;
+}
+
+.aboutPronunciationIcon {
+	width: 1.3em;
+	height: 1.3em;
+	opacity: 0.68;
+}
+
+.aboutPronunciationTooltip {
+	position: absolute;
+	left: 50%;
+	bottom: calc(100% + 0.38rem);
+	transform: translateX(-50%) translateY(2px);
+	display: grid;
+	gap: 0.1rem;
+	padding: 0.25rem 0.42rem;
+	border: 1px solid var(--line-strong);
+	border-radius: 4px;
+	background: var(--bg);
+	color: var(--muted);
+	font-size: 0.43em;
+	font-weight: 360;
+	line-height: 1.35;
+	white-space: nowrap;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 120ms ease, transform 120ms ease;
+}
+
+.aboutPronunciation:hover .aboutPronunciationTooltip,
+.aboutPronunciation:focus-within .aboutPronunciationTooltip {
+	opacity: 1;
+	transform: translateX(-50%) translateY(0);
 }
 
 .inlineTextLink {

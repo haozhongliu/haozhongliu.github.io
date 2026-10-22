@@ -171,6 +171,31 @@ export default function Home() {
 										className={`bodyText aboutParagraph ${index === 0 ? "aboutLead" : ""}`.trim()}
 									>
 										{highlightAboutText(paragraph)}
+										{index === 0 ? (
+											<span className="aboutIdentityMeta">
+												<span className="aboutIdentityText">Kayl | 刘 皓 中 | he/him</span>
+												<span className="aboutPronunciation">
+													<button
+														type="button"
+														className="aboutPronunciationTrigger"
+														aria-label="Show pronunciation"
+													>
+														<Image
+															src="/volume-max-svgrepo-com.svg"
+															alt=""
+															aria-hidden="true"
+															width={16}
+															height={16}
+															className="aboutPronunciationIcon"
+														/>
+													</button>
+													<span className="aboutPronunciationTooltip" role="tooltip">
+														<span>Haozhong: pronounced "HOW-joong"</span>
+														<span>Kayl: pronounced like "Kyle"</span>
+													</span>
+												</span>
+											</span>
+										) : null}
 									</p>
 								))}
 							</div>
