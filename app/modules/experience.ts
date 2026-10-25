@@ -25,15 +25,15 @@ export const experienceModule = {
       title: "Honors",
       items: [
         {
-          title: "Undergraduate Academic Star Program, Zhejiang University",
+          title: "Undergraduate Academic Star Grant, Zhejiang University",
           description: "Received RMB 20,000 ($2800) in individual research funding. ",
         },
         {
-          title: "Key Innovation Project, Zhejiang University",
+          title: "Key Innovation Grant, Zhejiang University",
           description: "Received RMB 8,000 ($1100) in individual research funding. ",
         },
         {
-          title: "Undergraduate Honors, Zhejiang University (2024–2025)",
+          title: "Undergraduate Honors, Zhejiang University (2024–2025, 2025-2026)",
           description: "Recognized for Academic Excellence, Innovation & Entrepreneurship, and Student Service.",
         },
         {
@@ -49,7 +49,7 @@ export const experienceModule = {
           description: "Awarded first prize in the “Jiugong” category at the World Robot Contest.",
         },
         {
-          title: "Champion, 37th Odyssey of the Mind World Finals",
+          title: "Champion, 37th Odyssey of the Mind World Finals, Iowa, U.S.",
           description: "Won the championship in \"The Story of Fishing\" at the 37th Odyssey of the Mind World Finals.",
         },
         {
@@ -64,10 +64,10 @@ export const experienceModule = {
       title: "Activities",
       items: [
         {
-          title: "Oral Presentation at ChinaVis 2026",
+          title: "UIST 2026 (Upcoming)",
         },
         {
-          title: "Oral Presentation at UIST 2026 (Upcoming)",
+          title: "Oral Presentation at ChinaVis 2026",
         },
         {
           title: "Delegate, 8th Zhejiang University Student Congress",

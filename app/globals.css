@@ -101,7 +101,7 @@ a {
 .moduleSection {
 	scroll-margin-top: 1.4rem;
 	padding-top: 1.2rem;
-	border-top: 1px solid rgba(24, 23, 21, 0.18);
+	border-top: 1px solid transparent;
 	opacity: 0;
 	transform: translateY(12px);
 	animation: moduleReveal 560ms ease forwards;
@@ -194,8 +194,8 @@ a {
 
 .aboutIdentityText {
 	font-size: 0.5em;
-	font-weight: 420;
-	color: #a8a8a8;
+	font-weight: 380;
+	color: #c2c2c2;
 	letter-spacing: 0.01em;
 }
 
@@ -271,7 +271,7 @@ a {
 	transform: translateX(-17%);
 	width: min(100%, 248px);
 	padding-top: 0.35rem;
-	border-top: 1px solid var(--line-strong);
+	border-top: 1px solid transparent;
 }
 
 .aboutPortrait {
@@ -311,6 +311,34 @@ a {
 .socialLink:focus-visible {
 	color: var(--ink);
 	transform: translateY(-1px);
+}
+
+.siteFooter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.6rem;
+	width: 100%;
+	padding: 1.1rem 1rem 1.2rem;
+	background: #f2efef;
+}
+
+.siteFooterText {
+	margin: 0;
+	font-size: 0.72rem;
+	letter-spacing: 0.04em;
+	color: #48413c;
+	text-align: center;
+}
+
+.siteFooter .socialLinks {
+	margin-top: 0;
+}
+
+.siteFooter .socialIcon {
+	width: 1.5rem;
+	height: 1.5rem;
+	filter: brightness(0) invert(0.2) sepia(1) saturate(2.2);
 }
 
 .moduleWorkspace {
@@ -357,7 +385,7 @@ a {
 
 .detailSheet {
 	padding: 0.2rem 0 0.2rem 1rem;
-	border-left: 1px solid var(--line);
+	border-left: 1px solid transparent;
 	background: transparent;
 }
 
@@ -466,7 +494,7 @@ a {
 	display: block;
 	width: 100%;
 	height: clamp(220px, 37vw, 420px);
-	border: 1px solid var(--line-strong);
+	border: 1px solid transparent;
 	background: rgba(255, 255, 255, 0.45);
 }
 
@@ -553,13 +581,12 @@ a {
 	margin-bottom: 1.5rem;
 	padding: 1rem;
 	background: rgba(255, 255, 255, 0.4);
-	border: 1px solid var(--line);
+	border: 1px solid transparent;
 	transition: all 0.2s ease;
 }
 
 .publicationCard:hover {
 	background: rgba(255, 255, 255, 0.7);
-	border-color: var(--line-strong);
 	transform: translateY(-2px);
 }
 
@@ -674,21 +701,15 @@ a {
 	color: var(--accent);
 }
 
-.pubKeywords {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 0.5rem;
-	margin-top: 0.2rem;
-}
-
-.pubKeyword {
-	font-size: 0.7rem;
-	padding: 0.15rem 0.45rem;
-	background: #f3f3f3;
+.pubDescription {
+	margin: 0.2rem 0 0;
+	padding-left: 0.7rem;
+	border-left: 1.8px solid var(--line-strong);
+	font-style: italic;
+	font-size: 0.85rem;
+	font-weight: 350;
+	line-height: 1.5;
 	color: var(--muted);
-	border-radius: 2px;
-	text-transform: uppercase;
-	letter-spacing: 0.02em;
 }
 
 .pubLinks {
@@ -727,15 +748,14 @@ a {
 	display: flex;
 	gap: 1rem;
 	padding: 0.85rem;
-	border: 1px solid var(--line);
+	border: 1px solid transparent;
 	background: rgba(255, 255, 255, 0.35);
-	transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+	transition: background 0.2s ease, transform 0.2s ease;
 }
 
 .projectCardLink:hover .projectCard,
 .projectCardLink:focus-visible .projectCard {
 	background: rgba(255, 255, 255, 0.65);
-	border-color: var(--line-strong);
 	transform: translateY(-2px);
 }
 
@@ -783,6 +803,8 @@ a {
 
 .projectDescription {
 	margin: 0;
+	padding-left: 0.7rem;
+	border-left: 1.8px solid var(--line-strong);
 	font-size: 0.9rem;
 	font-weight: 350;
 	line-height: 1.55;

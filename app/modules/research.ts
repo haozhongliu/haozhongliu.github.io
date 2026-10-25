@@ -22,7 +22,7 @@ export type Publication = {
   underReview?: boolean;
   accept?: boolean;
   year?: number;
-  keywords: string[];
+  description: string;
   url?: string;
   doi?: string;
   pdf?: string;

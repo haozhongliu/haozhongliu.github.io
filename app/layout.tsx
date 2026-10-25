@@ -36,6 +36,6 @@ export default function RootLayout({
 }
 
 export const viewport: Viewport = {
-  initialScale: 3, // 默认是 1。调大（如 1.2）会放大，调小（如 0.8）会缩小
+  initialScale: 1, 
   width: 'device-width',
 }

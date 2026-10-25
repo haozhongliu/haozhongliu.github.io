@@ -226,7 +226,7 @@ export function WorldMapCanvas({ className }: WorldMapCanvasProps) {
 					? travelMapConfig.pointHoverColor
 					: travelMapConfig.pointColor;
 				if (isHovered) {
-					context.shadowColor = "rgba(41, 168, 253, 0.78)";
+					context.shadowColor = "rgba(154, 107, 71, 0.55)";
 					context.shadowBlur = 16;
 				}
 				context.fill();
@@ -257,7 +257,7 @@ export function WorldMapCanvas({ className }: WorldMapCanvasProps) {
 					? travelMapConfig.smallPointHoverColor
 					: travelMapConfig.smallPointColor;
 				if (isHovered) {
-					context.shadowColor = "rgba(41, 168, 253, 0.78)";
+					context.shadowColor = "rgba(176, 122, 79, 0.55)";
 					context.shadowBlur = 14;
 				}
 				context.fill();

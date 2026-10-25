@@ -143,6 +143,7 @@ export default function Home() {
 		journeysModule.blocks.find((block) => block.id === activeJourneys) ?? journeysModule.blocks[0];
 
 	return (
+		<>
 		<main className="homepageShell">
 				<aside className="researchRail" aria-label="Document map">
 					<ol className="railList">
@@ -426,5 +427,10 @@ export default function Home() {
 					</section>
 				</div>
 			</main>
+			<footer className="siteFooter">
+				<p className="siteFooterText">© 2026 Haozhong Liu</p>
+				<SocialIconLinks links={aboutModule.socialLinks} />
+			</footer>
+		</>
 	);
 }

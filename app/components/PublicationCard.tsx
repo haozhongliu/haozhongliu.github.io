@@ -56,13 +56,7 @@ export function PublicationCard({ pub }: { pub: Publication }) {
         {pub.cofirst && pub.cofirst.length > 0 && (
           <div className="coFirstNotes">†: Equal Contribution</div>
         )}
-        <div className="pubKeywords">
-          {pub.keywords.map((kw) => (
-            <span key={kw} className="pubKeyword">
-              {kw}
-            </span>
-          ))}
-        </div>
+        <p className="pubDescription">{pub.description}</p>
         <div className="pubLinks">
           {titleHref && (
             <a href={titleHref} target="_blank" rel="noopener noreferrer" className="pubLink">
