@@ -64,10 +64,10 @@ export const experienceModule = {
       title: "Activities",
       items: [
         {
-          title: "UIST 2026 (Upcoming)",
+          title: "Full-Paper Oral Presentation at UIST 2026",
         },
         {
-          title: "Oral Presentation at ChinaVis 2026",
+          title: "Full-Paper Oral Presentation at ChinaVis 2026",
         },
         {
           title: "Delegate, 8th Zhejiang University Student Congress",

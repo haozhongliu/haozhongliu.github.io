@@ -20,9 +20,9 @@
     "venueUrl": "https://uist.acm.org/",
     "year": 2026,
     "description": "How can a multi-agent system self-evolve with user knowledge through bidirectional human-AI collaboration?",
-    "url": "https://arxiv.org/abs/2608.05026",
+    "url": "https://dl.acm.org/doi/full/10.1145/3830398.3830539",
     "doi": "",
-    "pdf": "https://arxiv.org/pdf/2608.05026",
+    "pdf": "https://dl.acm.org/doi/epdf/10.1145/3830398.3830539",
     "image": "/artanno.png",
     "cofirst": ["X. Gu", "Y. Wang"],
     "bold": ["Haozhong Liu"]
@@ -43,10 +43,9 @@
   {
     "title": "TCPsBench: A Benchmark for Evaluating Interpretation Ability in Traditional Chinese Painting",
     "authors": ["X. Gu", "W. Zheng", "Y. Zheng", "Haozhong Liu", "K. Liu", "P. Jiang", "T. Wang", "J. Zhu", "L. Jiang", "W. Zhang", "W. Chen"],
-    "venue": "TMM",
+    "venue": "IEEE Transactions on Multimedia (TMM)",
     "underReview": true,
     "venueUrl": "https://signalprocessingsociety.org/publications-resources/ieee-transactions-multimedia",
-    "year": 2027,
     "description": "Can AI understand images with subjective semantics like humans? ",
     "url": "",
     "doi": "",

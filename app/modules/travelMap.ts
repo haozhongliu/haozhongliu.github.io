@@ -105,7 +105,7 @@ export const travelMapConfig: TravelMapConfig = {
 			x: 198,
 			y: 412,
 			imageSrc: "/Iowa.jpg",
-			note: "Represented China in the Odyssey of the Mind World Finals and received a world gold award here.",
+			note: "Received a world gold award in the 37th Odyssey of the Mind World Finals.",
 		},
 		{
 			id: "florida",
@@ -126,10 +126,18 @@ export const travelMapConfig: TravelMapConfig = {
 		{
 			id: "illinois",
 			title: "Illinois",
-			x: 219,
-			y: 420,
+			x: 215,
+			y: 424,
 			imageSrc: "/uiuc.png",
 			note: "My home university, a new chapter in my life.",
+		},
+		{
+			id: "michigan",
+			title: "Michigan",
+			x: 221,
+			y: 412,
+			imageSrc: "/uist.jpg",
+			note: "Presented our paper accepted to UIST'26 in Detroit, MI.",
 		},
 		{
 			id: "guiyang",
