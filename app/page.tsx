@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { type ReactNode, useState } from "react";
 
 import { WorldMapCanvas } from "./components/WorldMapCanvas";
@@ -11,7 +12,6 @@ import { aboutModule, aboutHighlightTerms } from "./modules/about";
 import { experienceModule } from "./modules/experience";
 import { journeysModule, writingHighlightTerms } from "./modules/journeys";
 import {
-	researchInterestCards,
 	researchModule,
 	researchHighlightTerms,
 	publications,
@@ -269,13 +269,6 @@ export default function Home() {
 									</>
 								) : activeResearch === "interests" ? (
 									<>
-										<div className="interestCards" aria-label="Interest topics">
-											{researchInterestCards.map((card) => (
-												<span key={card} className="interestCard">
-													{card}
-												</span>
-											))}
-										</div>
 										<div className="detailParagraphs">
 											{activeResearchBlock.content.split("\n\n").map((paragraph, index) => (
 												<p key={index} className="bodyText contentParagraph">
@@ -323,7 +316,15 @@ export default function Home() {
 								<div className="experienceItems">
 									{activeExperienceBlock.items.map((item, index) => (
 										<div key={`${item.title}-${index}`} className="experienceItem">
-											<p className="experienceItemTitle">{item.title}</p>
+											<p className="experienceItemTitle">
+												{"href" in item && item.href ? (
+													<Link href={item.href} className="inlineTextLink">
+														{item.title}
+													</Link>
+												) : (
+													item.title
+												)}
+											</p>
 											{"description" in item && item.description ? (
 												<p className="experienceItemDescription">{item.description}</p>
 											) : null}

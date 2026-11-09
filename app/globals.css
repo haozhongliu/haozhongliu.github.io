@@ -929,3 +929,153 @@ a {
 		height: 132px;
 	}
 }
+
+	.activityPage {
+		width: min(760px, 100%);
+		margin: 0 auto;
+		padding: clamp(1rem, 2.3vw, 2rem) clamp(1rem, 3vw, 2.4rem);
+		display: flex;
+		flex-direction: column;
+		gap: 1.4rem;
+	}
+
+	.activityBack {
+		font-size: 0.9rem;
+		color: var(--muted);
+		text-decoration: none;
+	}
+
+	.activityBack:hover {
+		text-decoration: underline;
+	}
+
+	.activityTitle {
+		margin: 0;
+		font-size: clamp(1.4rem, 2.6vw, 1.9rem);
+		font-weight: 400;
+	}
+
+	.activityGallery {
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+		outline: none;
+		container-type: inline-size;
+	}
+
+	.activityTrack {
+		position: relative;
+		display: flex;
+		gap: 1rem;
+		width: max-content;
+	}
+
+	.activityTrack.isReady {
+		transition: transform 800ms cubic-bezier(0.22, 0.61, 0.36, 1);
+	}
+
+	.activitySlide {
+		flex: 0 0 auto;
+		height: clamp(240px, 52vh, 480px);
+		opacity: 0;
+		transition: opacity 800ms ease;
+	}
+
+	.activitySlide.isActive {
+		opacity: 1;
+	}
+
+	.activitySlide.isPeek {
+		opacity: 0.3;
+		cursor: pointer;
+	}
+
+	.activitySlide.isPeek:hover {
+		opacity: 0.45;
+	}
+
+	.activitySlideImage {
+		display: block;
+		max-width: 80cqw;
+		object-fit: contain;
+	}
+
+	.activityText p {
+		margin: 0 0 1rem;
+		line-height: 1.7;
+		color: var(--muted);
+	}
+
+		.writingsPage {
+			width: min(1000px, 100%);
+			margin: 0 auto;
+			padding: clamp(1rem, 2.3vw, 2rem) clamp(1rem, 3vw, 2.4rem);
+			display: flex;
+			flex-direction: column;
+			gap: 1.6rem;
+		}
+
+		.writingsLayout {
+			display: grid;
+			grid-template-columns: minmax(150px, 240px) minmax(0, 1fr);
+			gap: clamp(1.2rem, 3vw, 2.6rem);
+			align-items: start;
+		}
+
+		.writingsList {
+			display: flex;
+			flex-direction: column;
+			gap: 0.35rem;
+			position: sticky;
+			top: 1rem;
+		}
+
+		.writingsItem {
+			padding: 0.25rem 0 0.25rem 0.7rem;
+			border: none;
+			border-left: 2px solid transparent;
+			background: transparent;
+			font-family: inherit;
+			font-size: 0.92rem;
+			font-weight: 300;
+			line-height: 1.4;
+			text-align: left;
+			color: var(--muted);
+			cursor: pointer;
+			transition: color 170ms ease, border-color 170ms ease;
+		}
+
+		.writingsItem:hover,
+		.writingsItem:focus-visible {
+			color: var(--ink);
+			border-left-color: var(--line-strong);
+		}
+
+		.writingsItem.isActive {
+			color: var(--ink);
+			border-left-color: var(--accent);
+		}
+
+		.writingsTitle {
+			margin: 0 0 2rem;
+			font-size: clamp(1.2rem, 2.2vw, 1.6rem);
+			font-weight: 350;
+			line-height: 1.25;
+		}
+
+		.writingsParagraph {
+			margin: 0 0 1rem;
+			line-height: 1.8;
+			color: var(--muted);
+			white-space: pre-line;
+		}
+
+		@media (max-width: 620px) {
+			.writingsLayout {
+				grid-template-columns: minmax(0, 1fr);
+			}
+
+			.writingsList {
+				position: static;
+			}
+		}

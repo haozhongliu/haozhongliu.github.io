@@ -22,6 +22,8 @@ export const aboutHighlightTerms = [
   "traveling",
   "poetry",
   "music",
+  "WHALES Lab",
+  "Yifang Wang",
 ] as const;
 
 export const aboutModule = {
@@ -31,8 +33,7 @@ export const aboutModule = {
   paragraphs: [
     "Hi, I’m Haozhong (Kayl) Liu :)",
     "I am a junior undergraduate in Computer Engineering, pursuing dual bachelor’s degrees at the [University of Illinois Urbana-Champaign (UIUC)](https://illinois.edu/) and [Zhejiang University (ZJU)](https://www.zju.edu.cn/english/), [ZJUI](https://zjui.intl.zju.edu.cn/en) Class of 2028. ",
-    "My interests include Human-Computer Interaction (HCI) and Human-Agent Collaboration. I am particularly interested in how AI-mediated information and interaction shape the ways people think, understand, and make sense of the world. I am working with Prof. [Ge \"Tiffany\" Wang](https://tiffanygewang.com/) in the [OATS Lab](https://oatslabuiuc.com/) at UIUC, exploring AI-mediated decision-making. I also have been working in the [VAI Group](https://zjuvai.cn/) in [the State Key Lab of CAD&CG](http://fit.zju.edu.cn/fitenglish/2019/0815/c36390a1484193/page.htm) at ZJU, advised by Prof. [Wei Chen](http://www.cad.zju.edu.cn/home/chenwei/) and Dr. [Wei Zhang](https://zwstart.github.io/). I expect to graduate in June 2028 and plan to continue my research in the United States. Please feel free to reach out if you think there may be a good research fit!",
-    "Outside research, I enjoy traveling, poetry, and music. My CV: [PDF](/pdfs/Haozhong%20Liu%20CV.pdf).",
+    "My interests include Human-Computer Interaction (HCI) and Human-Agent Collaboration. I am particularly interested in how AI-mediated information and interaction shape the ways people think, understand, and make sense of the world. I am working with Prof. [Ge \"Tiffany\" Wang](https://tiffanygewang.com/) in the [OATS Lab](https://oatslabuiuc.com/) at UIUC, exploring AI-mediated decision-making. I also collaborate with Prof. [Yifang Wang](https://wangyifang.top/). I have been working in the [VAI Group](https://zjuvai.cn/) in [the State Key Lab of CAD&CG](http://fit.zju.edu.cn/fitenglish/2019/0815/c36390a1484193/page.htm) at ZJU, advised by Prof. [Wei Chen](http://www.cad.zju.edu.cn/home/chenwei/) and Prof. [Wei Zhang](https://zwstart.github.io/). I expect to graduate in June 2028 and plan to continue my research in the United States. Please feel free to reach out if you think there may be a good research fit! My CV: [PDF](/pdfs/Haozhong%20Liu%20CV.pdf).",
     "Email: [hl123@illinois.edu](mailto:hl123@illinois.edu) ",
     
   ],

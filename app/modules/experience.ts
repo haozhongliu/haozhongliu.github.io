@@ -1,8 +1,11 @@
+import { activities } from "./activities";
+
 export type ExperienceBlockId = "activities" | "honors";
 
 export type ExperienceItem = {
   title: string;
   description?: string;
+  href?: string;
 };
 
 export type ExperienceBlock = {
@@ -37,7 +40,7 @@ export const experienceModule = {
           description: "Recognized for Academic Excellence, Innovation & Entrepreneurship, and Student Service.",
         },
         {
-          title: "Second Scholarship, Zhejiang University (2024–2025)",
+          title: "Second Scholarship, Zhejiang University (2024–2025, 2025-2026)",
           description: "Awarded for outstanding academic performance and overall achievement.",
         },
         {
@@ -62,17 +65,10 @@ export const experienceModule = {
       label: "Activities",
       kicker: "Activities",
       title: "Activities",
-      items: [
-        {
-          title: "Full-Paper Oral Presentation at UIST 2026",
-        },
-        {
-          title: "Full-Paper Oral Presentation at ChinaVis 2026",
-        },
-        {
-          title: "Delegate, 8th Zhejiang University Student Congress",
-        },
-      ],
+      items: activities.map((activity) => ({
+        title: activity.title,
+        ...(activity.slug ? { href: `/activities/${activity.slug}` } : {}),
+      })),
     },
   ] satisfies readonly ExperienceBlock[],
 } as const;

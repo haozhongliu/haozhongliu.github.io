@@ -41,11 +41,12 @@
     "bold": ["Haozhong Liu"]
   },
   {
-    "title": "TCPsBench: A Benchmark for Evaluating Interpretation Ability in Traditional Chinese Painting",
-    "authors": ["X. Gu", "W. Zheng", "Y. Zheng", "Haozhong Liu", "K. Liu", "P. Jiang", "T. Wang", "J. Zhu", "L. Jiang", "W. Zhang", "W. Chen"],
-    "venue": "IEEE Transactions on Multimedia (TMM)",
+    "title": "TCPsBench: A Dependency-Aware Benchmark for Diagnosing Traditional Chinese Painting Interpretation",
+    "authors": ["X. Gu", "W. Zheng", "Y. Zheng", "Haozhong Liu", "K. Liu", "P. Jiang", "T. Wang", "J. Zhu", "L. Jiang", "W. Zhang"],
+    "venue": "CVPR",
+    "year": 2027,
     "underReview": true,
-    "venueUrl": "https://signalprocessingsociety.org/publications-resources/ieee-transactions-multimedia",
+    "venueUrl": "https://cvpr.thecvf.com/Conferences/2027",
     "description": "Can AI understand images with subjective semantics like humans? ",
     "url": "",
     "doi": "",
