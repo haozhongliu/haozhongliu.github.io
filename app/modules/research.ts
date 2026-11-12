@@ -25,6 +25,7 @@ export type Publication = {
   description: string;
   url?: string;
   doi?: string;
+  demo?: string;
   pdf?: string;
   image: string;
   cofirst?: string[];

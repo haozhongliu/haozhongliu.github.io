@@ -22,6 +22,7 @@
     "description": "How can a multi-agent system self-evolve with user knowledge through bidirectional human-AI collaboration?",
     "url": "https://dl.acm.org/doi/full/10.1145/3830398.3830539",
     "doi": "",
+    "demo": "https://www.youtube.com/watch?v=zFEjKRprGMg&t=122s",
     "pdf": "https://dl.acm.org/doi/epdf/10.1145/3830398.3830539",
     "image": "/artanno.png",
     "cofirst": ["X. Gu", "Y. Wang"],
@@ -35,7 +36,7 @@
     "venueUrl": "https://chinavis.org/2026/en/",
     "year": 2026,
     "description": "How can an interactive visualization system facilitate user understanding in multi-source, multimodal data?",
-    "url": "",
+    "url": "https://oversea.cnki.net/kreader2/xml?invoice=wZO2ygqpNLr4AI%2FEzNzdGoPi%2B55sJodORBqx6t70gq9%2BSg4ueddcPQar8UOyfIAGIewchW2VhL42OG%2B2hluTsjo9VSoGOjJQonqme6RipbgY8QJWH%2F4wnIFhVOQnJ1u0%2Bo8MuB5Y3RY7fcbw09YAD1xJIPuiBOVKfry%2B3VAndHY%3D&platform=OVERSEA&product=CAPJ&filename=HZDX20261110001&tablename=capjlast&type=JOURNAL&scope=readonline&cflag=mthtml&dflag=xml&pages=&language=en&trial=&nonce=8F474E2261B84649A39B6B3C50ECEA98&loginType=trialRead",
     "doi": "",
     "image": "/chcvis.png",
     "bold": ["Haozhong Liu"]

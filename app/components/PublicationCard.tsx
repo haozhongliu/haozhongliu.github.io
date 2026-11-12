@@ -5,6 +5,7 @@ export function PublicationCard({ pub }: { pub: Publication }) {
   const venueHref = pub.venueUrl && pub.venueUrl.trim() ? pub.venueUrl : null;
   const titleHref = pub.url && pub.url.trim() ? pub.url : null;
   const doiHref = pub.doi && pub.doi.trim() ? `https://doi.org/${pub.doi}` : null;
+  const demoHref = pub.demo && pub.demo.trim() ? pub.demo : null;
   const pdfHref = pub.pdf && pub.pdf.trim() ? pub.pdf : null;
   const venueText = typeof pub.year === "number" ? `${pub.venue}, ${pub.year}` : pub.venue;
 
@@ -66,6 +67,11 @@ export function PublicationCard({ pub }: { pub: Publication }) {
           {doiHref && (
             <a href={doiHref} target="_blank" rel="noopener noreferrer" className="pubLink">
               DOI
+            </a>
+          )}
+          {demoHref && (
+            <a href={demoHref} target="_blank" rel="noopener noreferrer" className="pubLink">
+              Demo
             </a>
           )}
           {pdfHref && (
